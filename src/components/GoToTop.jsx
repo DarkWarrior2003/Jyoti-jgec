@@ -35,10 +35,10 @@ const GoToTop = () => {
   
 
   return (
-    <div class="scrollup" id="scroll-up" onClick={clickAndScroll}>
+    <div className="scrollup" id="scroll-up" onClick={clickAndScroll}>
    
   
-   <i class="fa-solid fa-arrow-up fa-beat"></i>
+   <i className="fa-solid fa-arrow-up fa-beat"></i>
     </div>
     
   );
