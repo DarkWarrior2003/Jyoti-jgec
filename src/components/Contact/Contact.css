@@ -1,0 +1,81 @@
+
+
+.container1 {
+    
+    border: 3px solid rgb(225, 11, 89);
+    
+    background-color: sandybrown;
+
+}
+
+.item {
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 12px 3px;
+    background-color: violet;
+    border-radius: 20px;
+}
+
+/* body {
+    font-family: 'Edu TAS Beginner', cursive;
+} */
+
+#social {
+    float: left;
+    width: 48%;
+}
+
+#onsite {
+    float: right;
+    width: 48%;
+    height: 266px;
+}
+
+#online {
+    /* float: left; */
+    clear: both;
+    width: 99%;
+}
+
+p,
+h3 {
+    text-align: right;
+    text-align: left;
+    /*It overwrite 1st property*/
+    text-align: center;
+    text-align: justify;
+}
+
+h1 {
+    margin: auto;
+    width: 288px;
+}
+
+.btn {
+    background-color: blueviolet;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+}
+
+a:visited {
+    background-color: rgb(47, 0, 255);
+}
+
+a:active {
+    background-color: navy;
+}
