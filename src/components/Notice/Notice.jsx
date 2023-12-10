@@ -29,7 +29,7 @@ const Notice = () => {
         NOTICE
       </h2>
 
-      <div className="px-16 pb-10 mt-4  bg-[#01204E] w-full lg:max-w-screen-md rounded-[15px] ">
+      <div className="lg:px-10 px-6 pt-8 pb-10 mt-4  bg-[#01204E] w-full lg:max-w-screen-md rounded-[15px] ">
         {notice?.length === 0 ? (
           <p className=" lg:text-xl pt-10 text-center text-white font-medium">
             Notice not available
@@ -37,17 +37,18 @@ const Notice = () => {
         ) : (
           notice &&
           notice.map((element, index) => (
-            <div className="pt-14 text-white title ">
+            <div className="pb-8 text-white title ">
               <a
                 href={element.filename.asset.url}
                 target="_blank"
                 rel="noreferrer"
+                
               >
-                <p className=" lg:text-2xl cursor-pointer text-left text-white font-medium">
+                <p className=" lg:text-2xl cursor-pointer text-left text-white font-semibold">
                   {element.title}
                 </p>
               </a>
-              <span className="text-sm lg:text-[12px] text-left font-extralight">
+              <span className="lg:text-sm text-[10px] lg:text-[12px] text-left font-extralight">
                 {element.releaseDate}
               </span>
             </div>
