@@ -39,7 +39,7 @@ const Notice = () => {
           notice.map((element, index) => (
             <div className="pt-14 text-white title ">
               <a
-                href={element.fileName.asset.url}
+                href={element.filename.asset.url}
                 target="_blank"
                 rel="noreferrer"
               >
