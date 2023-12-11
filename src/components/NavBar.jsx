@@ -20,7 +20,7 @@ const NavBar = () => {
     <Navbar fluid className='  py-3 sticky top-0 z-10 ' style={{ backgroundColor: "rgb(34 33 63)" }}>
      
         <div className="flex items-center">
-          <img src={logo} className="h-10 mr-3" alt="" />
+          <img src={logo} className="h-12 mr-3" alt="" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
             JYOTI{" "}
             <span className=" text-xs italic text-yellow-100">

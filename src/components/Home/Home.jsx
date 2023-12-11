@@ -1,11 +1,11 @@
 import React from "react";
 import Achievements from "./Achievements";
-import Support from "./Support";
+import Performance from "./Performance";
 
 const Home = () => {
   return (
     <>
-      <div class="background"></div>
+      <div className="background"></div>
       <div className="container m-auto px-5 lg:w-8/12 flex flex-col text-center pt-14">
       
         <div
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div>
       <Achievements />
-      <Support />
+      <Performance />
     </>
   );
 };

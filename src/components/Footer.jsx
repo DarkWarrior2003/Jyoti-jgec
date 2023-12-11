@@ -11,11 +11,12 @@ const Footer = () => {
 
       <footer className=" footer mt-5  bg-white rounded-lg shadow dark:bg-gray-900 ">
         <div className="w-full max-w-screen-xl mx-auto p-4  md:py-8">
-          <div className="flex items-center justify-between">
-            <a href="/" className="flex items-center  sm:mb-0">
-              <img src={logo} className="lg:h-8 h-6 mr-3" alt="" />
-              <span className="self-center text-xl lg:text-2xl font-semibold whitespace-nowrap dark:text-white">JYOTI</span>
-            </a>
+          <div className="flex items-center  justify-between">
+
+            <div  className="flex  items-center  sm:mb-0">
+              <img src={logo} className="w-[48px]  mr-2" alt="" />
+              <span className="self-center   text-xl lg:text-2xl font-semibold whitespace-nowrap dark:text-white">JYOTI</span>
+            </div>
             <ul className="flex flex-wrap  items-center text-xl lg:text-2xl font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
               <li className='hover:scale-105 transition-transform'>
                 <a href="https://www.instagram.com/jyotijgec target='_blank' rel='noreferrer'" className="mr-4 bg-tr hover:bg-transparent hover:text-blue-400  md:mr-6 "><i className="fa-brands fa-instagram"></i></a>

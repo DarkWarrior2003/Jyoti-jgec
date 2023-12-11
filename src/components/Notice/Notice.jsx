@@ -31,7 +31,7 @@ const Notice = () => {
 
       <div className="lg:px-10 px-6 pt-8 pb-10 mt-4  bg-[#01204E] w-full lg:max-w-screen-md rounded-[15px] ">
         {notice?.length === 0 ? (
-          <p className=" lg:text-xl text-center text-white font-medium">
+          <p className=" lg:text-xl  text-center text-white font-medium">
             Notice not available
           </p>
         ) : (
