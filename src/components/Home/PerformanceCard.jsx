@@ -2,17 +2,13 @@ import React from "react";
 
 const SupportCard = (props) => {
   return (
-    <div className="rounded-lg p-6 bg-[#eeeeeeee] max-w-xs md:max-w-md shadow-2xl mt-10  mb-8  flex gap-y-5 flex-col items-center hover:scale-110 transition-all flex-shrink-0">
-      <img
-        className="rounded-lg inline-block"
-        src={props.img} alt=""
-      />
-
-      <div className={`py-5 `}>
-        <p className="mb-3 font-normal text-sm text-[#1d1a1a] dark:text-gray-400">
-          {props.title}
-        </p>
-      </div>
+    <div class=" lg:w-[450px] border-[6px] mt-10  mb-8  hover:scale-105 transition-transform border-slate-700 relative ">
+        <img src={props.img} className="" alt="" />
+        <div class="absolute bottom-0 left-0 right-0 px-2 py-2 bg-gray-800 opacity-70">
+            <h3 class="lg:text-xl text-white text-center font-bold">
+                {props.title}</h3>
+            
+        </div>
     </div>
   );
 };

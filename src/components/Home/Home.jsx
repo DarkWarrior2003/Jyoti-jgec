@@ -9,8 +9,8 @@ const Home = () => {
       <div className="container m-auto px-5 lg:w-8/12 flex flex-col text-center pt-14">
       
         <div
-          className="container home border px-5  lg:py-10 py-2 lg:px-20 rounded-lg"
-          style={{ backgroundColor: "rgb(195 200 205 / 40%)" }}
+          className="container home border px-5 bg-[#6d6c6c69] lg:py-10 py-2 lg:px-20 rounded-lg"
+          
         >
           <h2
             className=" font-semibold lg:text-xl italic p-5 "
