@@ -11,8 +11,9 @@ body{
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url("https://scontent.fmaa8-1.fna.fbcdn.net/v/t39.30808-6/326699889_578055767129846_4378800707045205251_n.jpg?stp=cp6_dst-jpg&_nc_cat=111&ccb=1-7&_nc_sid=3635dc&_nc_ohc=IYtv4aLmD0EAX_VEfE0&_nc_oc=AQlpVLU3yhhmNptE9RpWwGU__D1xtKUJkjISvlqKWZVelB2sPRMIQral-VBlMoNOabs&_nc_ht=scontent.fmaa8-1.fna&oh=00_AfBF4jmZ-D-3Mdj3AsNH8Nji1gofn4CtzdhjjjwA5uRSkw&oe=6579CCB0");
-  background-size: contain;
+  background-image: url(./components/assests/Home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   filter: blur(8px);
   z-index: -1;

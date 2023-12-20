@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "./assests/Logo.png"
 const Loader = () => {
   return (
-    <div className="loader bg-blue-900">
+    <div className="loader bg-[#0e0e3a]">
     <div className="ringloader"></div>
     <div className="ringloader"></div>
     <div className="ringloader"></div>
